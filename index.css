@@ -1,0 +1,109 @@
+body {
+    background-image: url("court.jpg"); 
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* @font-face {
+    font-family: CursedTimer;
+    src: url("C:\Users\Lenovo\Downloads\webfontkit-20221105-113623\cursedtimerulil-aznm-webfont.woff");
+  } */
+
+.title{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color : #eeeeee;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+}
+
+.scores{
+    display: flex;
+    justify-content: space-around;
+    /* margin-right: 7px; */
+}
+
+#home-text,#guest-text {
+    background : #000000;
+    border-radius: 5px;
+    width: 155px;
+height: 120px;
+left: 337px;
+top: 125px;
+    color: #F94F6D;
+    font-style: normal;
+    font-family: 'Cursed Timer ULiL';
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    margin : 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    column-gap: 0px;
+    margin: 30px;
+    width :575px;
+    height : 385px;
+    background : #1B244A;
+    /* border : 1px solid black; */
+    
+}
+
+.buttons {
+    font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 155% */
+border-radius: 5px;
+color: #9AABD8;
+}
+
+#h1,#h2,#h3,#g2,#g1,#g3 {
+    width: 45px;
+height: 45px;
+left: 337px;
+top: 271px;
+background : #1B244A;
+    /* text-align: center; */
+border : 2px solid #9AABD8;
+border-radius: 5px;
+color: #9AABD8;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#restart{
+    border-radius: 5px;
+    background: #9AABD8;
+    font-family: 'Cursed Timer ULiL';
+    color: #1B244A;
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+}
